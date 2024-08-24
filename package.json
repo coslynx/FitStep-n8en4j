@@ -1,0 +1,77 @@
+{
+  "name": "fittrack",
+  "version": "1.0.0",
+  "description": "FitTrack MVP - A web application for fitness goal tracking, progress monitoring, and community building.",
+  "main": "pages/api/auth/[...nextauth].js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md}\"",
+    "test": "jest",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<github account username>/FitTrack.git"
+  },
+  "author": "Drix10",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@next/font": "^14.0.3",
+    "@prisma/client": "^4.11.0",
+    "@sentry/node": "^7.23.0",
+    "@sentry/react": "^7.23.0",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.13",
+    "bcrypt": "^5.1.0",
+    "chart.js": "^4.2.1",
+    "classnames": "^2.3.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "next": "^14.0.3",
+    "next-auth": "^4.20.0",
+    "postcss": "^8.4.21",
+    "prisma": "^4.11.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.0",
+    "react-dom": "^18.2.0",
+    "react-share": "^4.5.1",
+    "tailwindcss": "^3.3.0",
+    "zustand": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.5.2",
+    "@types/react-chartjs-2": "^4.0.16",
+    "@types/react-share": "^4.4.6",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "cypress": "^11.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^14.0.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
